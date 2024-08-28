@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title><h3> my page </h3></title>
+<style type="text/css">
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+#logo-div{
+background-color:lavender;
+width:100;
+height:90px;
+padding-left:3%;
+text-align:center;
+line-height:90px;
+margin-bottom:10px;
+font-family:cursive;
+}
+#welcome-div{
+background-color:lightpink;
+width:25%;
+padding-left:10px;
+height:auto;
+line-height:50px;
+margin-bottom:10px;
+}
+
+
+
+#content-div{
+background-color:lightblue;
+width:100%;
+padding-left:10px;
+height:auto;
+line-height:25px;
+margin-bottom:10px;
+font-size:larger;
+
+}
+#parent-div{
+
+height:500px;
+background-color:lightyellow;
+width:100%;
+padding-left:50px;
+padding-right:50px;
+margin-bottom:10px;
+}
+#logo1-div{
+height:250px;
+width:45%;
+background-color:pink;
+float:left;
+line-height:250px;
+text-align:center;
+}
+#logo2-div{
+height:250px;
+width:45%;
+background-color:pink;
+text-align:center;
+line-height:250px;
+float:right;
+}
+.clearfix::after{
+content:"";
+display:block;
+clear:both;
+}
+#footer-div{
+height:100px;
+width:100%;
+background-color:violet;
+text-align:center;
+line-height:100px;}
+
+#wrapper-div{
+width:95%;
+margin:auto;
+background-color:white;
+}
+
+
+
+
+</style>
+</head>
+<body>
+<div id="wrapper-div">
+ <div id="logo-div">
+LOGO COLLECTION
+</div>
+<div id="welcome-div">
+WELCOME EVERYONE,
+</div>
+<div id="content-div">
+When done right, a logo serves as the face of your business and helps your audience recognize who you are and what you stand for. Here, we will explore in depth what is a logo, and the importance of creating a logo that represents your brand's personality. Once you're ready to get started you can also check out our guide to using the Wix Logo Maker. 
+
+
+
+What is a logo?
+
+A logo is a graphic design element comprised of words (typography), images, shapes, symbols and colors to identify and represent a brand, business or product. Specific types of logos come in all different shapes and sizes that run the gamut from simple text logotypes to abstract logo marks.
+Sent by Copilot:
+Certainly! The psychology of colors in logos is fascinating. Let’s dive into it:
+
+Color and Brand Identity:
+Colors carry intrinsic meaning that becomes central to a brand’s identity. They contribute to brand recognition and communicate the desired image.
+For instance, blue is commonly used in credit card brand logos, while red appears in fast food brands. Retail brands often incorporate red as well1.
+Emotional Impact of Colors:
+Different colors evoke specific emotions. For example:
+Red: Associated with passion, energy, and urgency.
+Blue: Conveys trust, calmness, and reliability.
+Green: Symbolizes growth, health, and nature.
+Yellow: Represents optimism and positivity.
+Purple: Often associated with luxury and creativity.
+Black: Signifies sophistication and elegance.
+Designers strategically select colors to communicate messages and elicit emotional responses23.
+Cultural Influences and Symbolism:
+Colors have cultural associations. For instance, red may symbolize luck in some cultures but danger in others.
+Consider the context and target audience when choosing logo colors.
+Remember, the right color can strengthen your brand identity and resonate with your audience! 🎨🌟
+
+</div>
+<div id="parent-div" class="clearfix">
+<div id="logo1-div">
+logo1
+
+</div>
+<div id="logo2-div">
+logo2
+</div>
+</div>
+<div id="footer-div">
+Thank you for visiting
+</div>
+</div>
+
+
+
+</body>
+</html>
